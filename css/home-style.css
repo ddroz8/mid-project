@@ -122,75 +122,108 @@ body{
     display: none;
 }
 
+.section-companies{
+    padding: 0  30px;
+}
+
+.companies-logos{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.company-logo{
+    margin-top: 30px;
+    align-content: center;
+    filter: grayscale(1);
+}
+
 @media (min-width: 768px){
     
    .container-navbar{
-    flex-direction: row;
-    align-items: center;
-    padding-left: 170px;
-    padding-right: 170px;
-    max-width: 1100px;
-    margin-right: auto;
-    margin-left: auto;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 170px;
+        padding-right: 170px;
+        max-width: 1100px;
+        margin-right: auto;
+        margin-left: auto;
    }
    
    .section-hero{
-    padding-top: 100px;
+        padding-top: 100px;
    }
 
    .hero-content{
-    max-width: 530px;
-    align-items: left;
+        max-width: 530px;
+        align-items: left;
    }
 
    .hero-content h1{
-    color: #292E47;
-    font-size: 60px;
-    text-align: left;
-    margin-top: 20px;
+        color: #292E47;
+        font-size: 60px;
+        text-align: left;
+        margin-top: 20px;
     }
 
     .hero-content p{
-    text-align: left;
-    max-width: 435px;
-    font-size: 20px;
+        text-align: left;
+        max-width: 435px;
+        font-size: 20px;
     }
 
     .hero-container{
-    flex-direction: row;
-    max-width: 1100px;
-    margin-right: auto;
-    margin-left: auto;
+        flex-direction: row;
+        max-width: 1100px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .hero-buttons{
-    flex-direction: row;
+        flex-direction: row;
     }
 
     .text-button{
-    padding-left: 40px;
-    padding-top:0;
+        padding-left: 40px;
+        padding-top:0;
     }
 
     .hero-images{
-    position: relative;
+        position: relative;
     }
 
     .hero-image-card1{
-    display: inline-block;
-    position: absolute;
-    width: 190px;
-    height: 216px;
-    left: -20px;
-    top: 25px;
+        display: inline-block;
+        position: absolute;
+        width: 190px;
+        height: 216px;
+        left: -20px;
+        top: 25px;
     }
 
     .hero-image-card2{
-    display: inline-block;
-    position: absolute;
-    width: 190px;
-    height: 193px;
-    right: -50px;
-    bottom: -50px;
+        display: inline-block;
+        position: absolute;
+        width: 190px;
+        height: 193px;
+        right: -50px;
+        bottom: -50px;
     }
+    
+    .companies-logos{
+        margin-top: 100px;
+        max-width: 1100px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-direction: row;    
+        justify-content: space-between;    
+    }
+    
+    .company-logo{
+        margin-top: 30px;
+        align-content: center;
+    }
+    
 }
