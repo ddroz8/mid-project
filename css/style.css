@@ -10,6 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     
 }
 
@@ -23,6 +24,32 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 0;
+}
+
+.nav-link{
+    color: #6B708D;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 20px;
+    text-align: left;
+    margin: auto;
+    position: relative;
+}
+
+.primary-button{
+    font-size: 17px;
+    padding: 15px 36px;
+    background-color: #072AC8;
+    color: white;
+    text-decoration: none;
+    border-radius: 0;
+    border-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (min-width: 768px){
