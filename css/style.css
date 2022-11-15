@@ -1,0 +1,35 @@
+body{
+    margin: 0 auto;
+    font-family: Roboto;
+    background-color: #F4F6FC;
+}
+
+.container-navbar{
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.navbar-logo{
+    width: 60px;
+    height: 18px;
+}
+
+.menu-navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px){
+    
+   .container-navbar{
+    flex-direction: row;
+    align-items: center;
+   }
+   
+}
