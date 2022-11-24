@@ -163,12 +163,12 @@
     <!--Fin Services-->
 
     <!--Section: Newsletter-->
-    <div class="section-nl">
+    <div id="nl" class="section-nl">
         <div class="container-nl">
             <h1 class="nl-title">Do you have any questions?</h1>
             <div class="nl-subtitle">Let us help you!</div>
             <div>
-                <form name="mail-1" class="email-form">
+                <form name="mail-1" class="email-form" onsubmit="return validacion">
                     <div class="email-box">
                         <div class="email-icon"></div>
                         <input type="email" class="email-input" placeholder="Enter your email" required>
@@ -198,5 +198,6 @@
         </div>
     </div>
     <!--Fin: footer-->
+    <script src="/js/form.js"></script>
 </body>
 </html>
