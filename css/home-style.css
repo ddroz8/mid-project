@@ -14,8 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .navbar-logo{
@@ -30,6 +29,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0;
+    gap:60px;
 }
 
 .nav-link{
