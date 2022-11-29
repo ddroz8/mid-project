@@ -1,4 +1,4 @@
-// Api para inyectar info en los bloques de Recent Projects
+// Info en los bloques de Recent Projects
 function recentProjects() {
     fetch("https://api.punkapi.com/v2/beers")
       .then((response) => response.json())
